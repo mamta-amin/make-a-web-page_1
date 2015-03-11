@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Intro to Programming</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		
+	</head>
+<body>
+	<div class="header">
+	<h1 style="text-align: center;">Welcome to my Introduction to Programming Learning Page</h1>
+	</div>
+	<div class="nav">
+	<ul>
+			<li id="nav-web"><a href="#web">WWW</a></li>
+			<li id="nav-html"><a href="#html">HTML</a></li>
+			<li id="nav-css"><a href="#css">CSS</a></li>
+			<li id="nav-aboutme"><a href="#aboutme">About Me</a></li>
+	</ul>	
+	</div>
+	<div class="section">
+		<a id="web"></a>
+		<p class="subtitle">World Wide Web</p>
+		<p class="notes">World Wide Web is collection of web pages which are made up of text files.  
+		These files contain image, text, links to other pages, video, and HTML tags.
+		A browser uses these text documents along with other files for styling and scripting to display what we see on the screen.</p>
+		<a id="html"></a>
+		<p  class="subtitle">HTML Basics</p>
+		<p class="notes">HTML (Hypertext Markup Language) is a language used by a browser to display a web page.  
+		HTML is made up of series of tags that hold instructions for the computer.  
+		Tags are basically commands for the browser. HTML document can only contain text and can be created using editors like Sublime, 
+		Notepad++, etc.  
+		As you write any code it is important to remember not to repeat code since all that code has to be maintained.  
+		Don't Repeat Yourself (DRY) is one of the fundamental principal of programming. 
+		It is also important that when writing HTML code you should use logical approach in structuring your page.
+		You can do this by grouping related content within an HTML element.  
+		For example, I have broken my page into four groups using &lt;div&gt; element as follows: header, nav, section, and footer.  <br />
+		Each web page has a basic structure that consists of some base tags like HTML, head, and body.
+		Other sub tags branch out from these base tags forming a tree like structure. 
+		Most tags come in pair of an opening and closing tags; however there are some that have no closing tags.
+		Below are some examples of tags and their function.  
+		For additional tags and their functions <a href="http://www.w3schools.com/tags/default.asp">click here.</a></p>	
+		    <table class="table"> 
+		    <caption><span style="Font-weight: Bold; Font-size:26px;">Basic HTML tags and their functions</span></caption>
+		    <tr> 
+			    <th id="th1">&lt;!DOCTYPE&gt;</th>
+			    <th id="th2">&lt;head&gt;</th>
+			    <th id="th3">&lt;body&gt;</th>
+		    </tr>
+		    <tr>
+			    <td>Identifies document type</td>
+			    <td>Represents the head section of a web page. <br /></td>
+			    <td>Content of a web page.</td>
+		    </tr>
+		    <tr>
+			    <td><strong>&lt;HTML&gt;</strong></td>
+			    <td><ul>
+				    <li><strong>&lt;title&gt;</strong> - Title on the page tab.</li>
+				    <li><strong>&lt;meta&gt;</strong> - provides information about the data </li> 
+				    <li><strong>&lt;style&gt;</strong> - provides style information for the web page</li> 
+				    <li><strong>&lt;script&gt;</strong> - contains scripting statements</li>
+				    </ul>
+			    </td>
+			    <td> <ul>
+				    <li><strong>&lt;h1&gt;</strong> thru <strong>&lt;h6&gt;</strong> defines different headings</li>
+				    <li><strong>&lt;div&gt;</strong> - defines sections within a web page</li>
+				    </ul>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td></td>
+			    <td></td>
+			    <td> <span>sub-elements or branches of <strong>&lt;div&gt;</strong> and <strong>&lt;h1&gt;</strong> thru <strong>&lt;h6&gt;</strong>:</span>
+				    <ul  class="sub-elements">
+				    <li><strong>&lt;text&gt;</strong></li>
+				    <li><strong>&lt;p&gt;</strong> - paragraph</li>
+				    <li><strong>&lt;span&gt;</strong> - used to group in-line elements</li>
+				    <li><strong>&lt;img&gt;</strong> - defines an image</li>
+					<li><strong>&lt;table&gt;</strong> - defines a table</li>
+				    <li>etc..</li>
+			    </ul>
+			   </td>
+		    </tr>		
+	    	</table>
+			<p class="notes">To provide additional information about an element, attributes like <em> bgcolor, color, 
+			    border, align, </em>etc. can be applied.</p>	
+		<a id="css"></a>
+		<p  class="subtitle">Cascading Style Sheet</p>
+			<p class="notes"><strong>CSS </strong>(Cascading Style Sheet) is a language used to create presentation of a webpages.  
+			While HTML allows you to structure your content CSS allows you to keep your content separate from your styling.  
+			Style can be included in a web page by linking the CSS file in the HTML document or by writing style in-line with HTML.  
+			Last option is not preferred since it may cause a lot of repeated code.
+			When you create CSS file, it is easier and cleaner to have same class name for similar elements. 
+			This is because when you create your CSS file you only have to write your styles for that one class instead of 
+			writing same style multiple times.In my webpage, I have created a class called "notes" that is used several times 
+			in my HTML page and have applied same formatting.    
+			For list of CSS properites <a href="http://www.w3schools.com/cssref/default.asp">click here.</a></p> 
+</div>
+<div class="footer">
+	<a id="aboutme"></a>
+	<article class="about me">
+	<h4 style="align:center; color:red;font-style:italic; margin-left:60px;"> About Me:  My Name is Mamta Amin and I'm taking this Nanodegree to gain some fundamental knowledge on programming.
+	My goal is to eventually take Data Analyst Nanodegree.</h4>
+	</article>
+</div>
+</body>
+</html>
+
